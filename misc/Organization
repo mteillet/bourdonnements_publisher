@@ -1,0 +1,94 @@
+OPEN / SAVE = different menus
+
+
+1. 
+
+OPEN  Asset
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BOURDONNEMENTS PUBLISHER                                                                                                                                         | User : UserList      |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+searchbar:                                                                                                                                                       |   extension:  .ma    |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-assets                 | CHARACTERS                | list of all the files                               | related contents to the asset                                               |
+shots                   | PROPS                     | Luis                                                | lookdev                                                                     |
+                        | SET                       | Oriana                                              | rig                                                                         |
+                        |                           | Eva                                                 | etc...                                                                      |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[ OPEN ][ IMPORT ][ REFERENCE ]                                                                                              |  VERSION PICKER (last by default/list all the versions)  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+OPEN Shot
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BOURDONNEMENTS PUBLISHER                                                                                                                                         | User : UserList      |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+searchbar:                                                                                                                                                       |   extension:  .ma    |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+assets                  | seq000                    | list of all the shots                               | related contents to the shot                                                |
+-shots                  | seq001                    | seq001_shot080                                      |                                                                             |
+                        | seq002                    | seq001_shot090                                      |                                                                             |
+                        | seq003                    | seq001_shot100                                      |                                                                             |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[ OPEN ][ IMPORT ][ REFERENCE ]                                                                                              |  VERSION PICKER (last by default/list all the versions)  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Everytime Open/import/reference is hit, the file usr_tracking.json is edited and a line is added
+
+DATE/TIME, REFERENCE/IMPORT/OPEN, File, FilePath, User   
+
+
+
+2. SAVE / Publish
+
+
+publish in :
+publishTypes: Geo | Lookdev | Groom | Rig | Camera | Layout | SetDress | LightRig | ShotAssembly
+
+Option to tick a manual rename
+
+SANITY Checker:
+    - check if the file follows these directions
+    1. If object is GEO 
+        DELETE HISTORY
+        FLOATING VERTEX
+        ZERO EDGE LENGTH
+        NGONS
+        ASSIGN DEFAULT SHADER AND DELETE OTHERS
+        FREEZE TRANSFORM
+        TOP GROUP PIVOT TO 0
+        UV Shells Overlapping
+        UV Flipped
+
+    2. If object is Lookdev
+        DELETE HISTORY
+        FLOATING VERTEX
+        ZERO EDGE LENGTH
+        NGONS
+        FREEZE TRANSFORM
+        TOP GROUP PIVOT TO 0
+        UV Shells Overlapping
+        UV Flipped    
+
+
+Autobackup
+    if Autobackup on, saves the previous file to the backup folder
+    Assigning the version numbering ONLY in the backup folder, the original file keeps a "classic" numbering method
+
+Example
+Assets/Characters/Luis/maya/rig/
+                                Luis_rig.ma
+Assets/Characters/Luis/maya/rig/backups/
+                                    Luis_rig_v000.ma
+                                    Luis_rig_v001.ma
+                                    Luis_rig_v002.ma
+                                    Luis_rig_v003.ma
+                                    Luis_rig_v004.ma
+
+Everytime a publish is made the file usr_tracking.json is edited and a line is added
+DATE/TIME, PUBLISH, File, FilePath, User, BackupVersion
+
