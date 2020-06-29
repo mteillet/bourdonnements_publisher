@@ -89,6 +89,8 @@ Assets/Characters/Luis/maya/rig/backups/
                                     Luis_rig_v003.ma
                                     Luis_rig_v004.ma
 
+When the publish is made, another script is ran to get rid of the student info message in the .ma file if it is created
+
 Everytime a publish is made the file usr_tracking.json is edited and a line is added
 DATE/TIME, PUBLISH, File, FilePath, User, BackupVersion
 
