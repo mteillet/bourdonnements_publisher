@@ -1,6 +1,6 @@
 import os
-#import maya.cmds as cmds
 import usr_tracking as ut
+import getProject as gp
 import backupchecker as bckpcheck
 
 def main():
@@ -8,6 +8,9 @@ def main():
     userList = ut.main()
     print(userList)
     bckpcheck.main()
+    project = gp.main()
+    print(project)
+    
 
 
 if __name__ == "__main__":
