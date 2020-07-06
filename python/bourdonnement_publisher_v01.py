@@ -7,9 +7,11 @@ def main():
     # Read the usrList.json using the usr_tracking.py file
     userList = ut.main()
     print(userList)
-    bckpcheck.main()
+    # Read the projectPath.json using the getProject.py file
     project = gp.main()
     print(project)
+    # Call to the yet to be defined backup function usingg the backupchecker.py
+    bckpcheck.main()
     
 
 

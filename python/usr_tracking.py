@@ -1,6 +1,6 @@
 import os
 
-def main():
+def m<ain():
     pathUsr = path()
     Userlist = readUsrs(pathUsr)
     return(Userlist)
