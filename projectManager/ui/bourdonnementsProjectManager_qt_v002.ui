@@ -180,6 +180,9 @@ border-radius :10px;
                  <height>16</height>
                 </size>
                </property>
+               <property name="toolTip">
+                <string>Minimize</string>
+               </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
 	border : none;
@@ -209,6 +212,9 @@ QPushButton:hover {
                  <height>16</height>
                 </size>
                </property>
+               <property name="toolTip">
+                <string>Maximize</string>
+               </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
 	border : none;
@@ -237,6 +243,9 @@ QPushButton:hover {
                  <width>16</width>
                  <height>16</height>
                 </size>
+               </property>
+               <property name="toolTip">
+                <string>Close</string>
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
@@ -603,6 +612,11 @@ QPushButton:hover {
                            <height>0</height>
                           </size>
                          </property>
+                         <property name="font">
+                          <font>
+                           <family>Roboto</family>
+                          </font>
+                         </property>
                          <property name="styleSheet">
                           <string notr="true">QPushButton {
 	border : none;
@@ -642,6 +656,11 @@ QPushButton:hover {
                            <height>0</height>
                           </size>
                          </property>
+                         <property name="font">
+                          <font>
+                           <family>Roboto</family>
+                          </font>
+                         </property>
                          <property name="styleSheet">
                           <string notr="true">QPushButton {
 	border : none;
@@ -680,6 +699,11 @@ QPushButton:hover {
                            <width>0</width>
                            <height>0</height>
                           </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Roboto</family>
+                          </font>
                          </property>
                          <property name="styleSheet">
                           <string notr="true">QPushButton {
@@ -747,6 +771,11 @@ QPushButton:hover {
                            <height>0</height>
                           </size>
                          </property>
+                         <property name="font">
+                          <font>
+                           <family>Roboto</family>
+                          </font>
+                         </property>
                          <property name="styleSheet">
                           <string notr="true">QPushButton {
 	border : none;
@@ -786,6 +815,11 @@ QPushButton:hover {
                            <height>0</height>
                           </size>
                          </property>
+                         <property name="font">
+                          <font>
+                           <family>Roboto</family>
+                          </font>
+                         </property>
                          <property name="styleSheet">
                           <string notr="true">QPushButton {
 	border : none;
@@ -824,6 +858,11 @@ QPushButton:hover {
                            <width>0</width>
                            <height>0</height>
                           </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Roboto</family>
+                          </font>
                          </property>
                          <property name="styleSheet">
                           <string notr="true">QPushButton {
