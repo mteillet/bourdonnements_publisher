@@ -12,10 +12,7 @@ class Ui_MainWindow(object):
         self.mainFrameLayout.setSpacing(0)
         self.mainFrameLayout.setObjectName("mainFrameLayout")
         self.mainFrame = QtWidgets.QFrame(self.centralwidget)
-        self.mainFrame.setStyleSheet("background-color: rgb(28, 33, 35);\n"
-"\n"
-"border-radius :10px;\n"
-"")
+        self.mainFrame.setStyleSheet("background-color: rgb(28, 33, 35);\n""\n""border-radius :10px;\n""")
         self.mainFrame.setFrameShape(QtWidgets.QFrame.NoFrame)
         self.mainFrame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.mainFrame.setObjectName("mainFrame")
@@ -66,42 +63,21 @@ class Ui_MainWindow(object):
         self.btn_maximize = QtWidgets.QPushButton(self.frame_btns)
         self.btn_maximize.setMinimumSize(QtCore.QSize(16, 16))
         self.btn_maximize.setMaximumSize(QtCore.QSize(16, 16))
-        self.btn_maximize.setStyleSheet("QPushButton {\n"
-"    border : none;\n"
-"    border-radius : 8px;\n"
-"    background-color: rgb(241,209,181);\n"
-"}\n"
-"QPushButton:hover {\n"
-"    background-color:  rgba(241,209,181, 150);\n"
-"}")
+        self.btn_maximize.setStyleSheet("QPushButton {\n""    border : none;\n""    border-radius : 8px;\n""    background-color: rgb(241,209,181);\n""}\n""QPushButton:hover {\n""    background-color:  rgba(241,209,181, 150);\n""}")
         self.btn_maximize.setText("")
         self.btn_maximize.setObjectName("btn_maximize")
         self.horizontalLayout_2.addWidget(self.btn_maximize)
         self.btn_minimize = QtWidgets.QPushButton(self.frame_btns)
         self.btn_minimize.setMinimumSize(QtCore.QSize(16, 16))
         self.btn_minimize.setMaximumSize(QtCore.QSize(16, 16))
-        self.btn_minimize.setStyleSheet("QPushButton {\n"
-"    border : none;\n"
-"    border-radius : 8px;\n"
-"    background-color: rgb(240,183,164);\n"
-"}\n"
-"QPushButton:hover {\n"
-"    background-color:  rgba(240,183,164,150);\n"
-"}")
+        self.btn_minimize.setStyleSheet("QPushButton {\n""    border : none;\n""    border-radius : 8px;\n""    background-color: rgb(240,183,164);\n""}\n""QPushButton:hover {\n""    background-color:  rgba(240,183,164,150);\n""}")
         self.btn_minimize.setText("")
         self.btn_minimize.setObjectName("btn_minimize")
         self.horizontalLayout_2.addWidget(self.btn_minimize)
         self.btn_close = QtWidgets.QPushButton(self.frame_btns)
         self.btn_close.setMinimumSize(QtCore.QSize(16, 16))
         self.btn_close.setMaximumSize(QtCore.QSize(16, 16))
-        self.btn_close.setStyleSheet("QPushButton {\n"
-"    border : none;\n"
-"    border-radius : 8px;\n"
-"    background-color: rgb(241,140,142);\n"
-"}\n"
-"QPushButton:hover {\n"
-"    background-color:  rgba(241,140,142, 150);\n"
-"}")
+        self.btn_close.setStyleSheet("QPushButton {\n""    border : none;\n""    border-radius : 8px;\n""    background-color: rgb(241,140,142);\n""}\n""QPushButton:hover {\n""    background-color:  rgba(241,140,142, 150);\n""}")
         self.btn_close.setText("")
         self.btn_close.setObjectName("btn_close")
         self.horizontalLayout_2.addWidget(self.btn_close)
@@ -195,14 +171,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Overpass Mono Light")
         self.btn_updateUser.setFont(font)
-        self.btn_updateUser.setStyleSheet("QPushButton {\n"
-"    border : none;\n"
-"    border-radius : 8px;\n"
-"    background-color: rgb(86,142,166);\n"
-"}\n"
-"QPushButton:hover {\n"
-"    background-color:  rgba(86,142,166, 150);\n"
-"}")
+        self.btn_updateUser.setStyleSheet("QPushButton {\n""    border : none;\n""    border-radius : 8px;\n""    background-color: rgb(86,142,166);\n""}\n""QPushButton:hover {\n""    background-color:  rgba(86,142,166, 150);\n""}")
         self.btn_updateUser.setFlat(False)
         self.btn_updateUser.setObjectName("btn_updateUser")
         self.horizontalLayout_5.addWidget(self.tabUserBtn)
@@ -233,14 +202,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Roboto")
         self.overview_btn.setFont(font)
-        self.overview_btn.setStyleSheet("QPushButton {\n"
-"    border : none;\n"
-"    border-radius : 8px;\n"
-"    background-color: rgb(86,142,166);\n"
-"}\n"
-"QPushButton:hover {\n"
-"    background-color:  rgba(86,142,166, 150);\n"
-"}")
+        self.overview_btn.setStyleSheet("QPushButton {\n""    border : none;\n""    border-radius : 8px;\n""    background-color: rgb(86,142,166);\n""}\n""QPushButton:hover {\n""    background-color:  rgba(86,142,166, 150);\n""}")
         self.overview_btn.setObjectName("overview_btn")
         self.horizontalLayout_6.addWidget(self.option_01_bar)
         self.option_02_bar = QtWidgets.QFrame(self.option_bar_top)
@@ -253,14 +215,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Roboto")
         self.assets_btn.setFont(font)
-        self.assets_btn.setStyleSheet("QPushButton {\n"
-"    border : none;\n"
-"    border-radius : 8px;\n"
-"    background-color: rgb(86,142,166);\n"
-"}\n"
-"QPushButton:hover {\n"
-"    background-color:  rgba(86,142,166, 150);\n"
-"}")
+        self.assets_btn.setStyleSheet("QPushButton {\n""    border : none;\n""    border-radius : 8px;\n""    background-color: rgb(86,142,166);\n""}\n""QPushButton:hover {\n""    background-color:  rgba(86,142,166, 150);\n""}")
         self.assets_btn.setObjectName("assets_btn")
         self.horizontalLayout_6.addWidget(self.option_02_bar)
         self.option_03_bar = QtWidgets.QFrame(self.option_bar_top)
@@ -273,14 +228,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Roboto")
         self.shots_btn.setFont(font)
-        self.shots_btn.setStyleSheet("QPushButton {\n"
-"    border : none;\n"
-"    border-radius : 8px;\n"
-"    background-color: rgb(86,142,166);\n"
-"}\n"
-"QPushButton:hover {\n"
-"    background-color:  rgba(86,142,166, 150);\n"
-"}")
+        self.shots_btn.setStyleSheet("QPushButton {\n""    border : none;\n""    border-radius : 8px;\n""    background-color: rgb(86,142,166);\n""}\n""QPushButton:hover {\n""    background-color:  rgba(86,142,166, 150);\n""}")
         self.shots_btn.setObjectName("shots_btn")
         self.horizontalLayout_6.addWidget(self.option_03_bar)
         self.verticalLayout_5.addWidget(self.option_bar_top)
@@ -302,14 +250,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Roboto")
         self.compo_btn.setFont(font)
-        self.compo_btn.setStyleSheet("QPushButton {\n"
-"    border : none;\n"
-"    border-radius : 8px;\n"
-"    background-color: rgb(86,142,166);\n"
-"}\n"
-"QPushButton:hover {\n"
-"    background-color:  rgba(86,142,166, 150);\n"
-"}")
+        self.compo_btn.setStyleSheet("QPushButton {\n""    border : none;\n""    border-radius : 8px;\n""    background-color: rgb(86,142,166);\n""}\n""QPushButton:hover {\n""    background-color:  rgba(86,142,166, 150);\n""}")
         self.compo_btn.setObjectName("compo_btn")
         self.horizontalLayout_7.addWidget(self.option_04_bar)
         self.option_05_bar = QtWidgets.QFrame(self.opton_bar_mid)
@@ -322,14 +263,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Roboto")
         self.editing_btn.setFont(font)
-        self.editing_btn.setStyleSheet("QPushButton {\n"
-"    border : none;\n"
-"    border-radius : 8px;\n"
-"    background-color: rgb(86,142,166);\n"
-"}\n"
-"QPushButton:hover {\n"
-"    background-color:  rgba(86,142,166, 150);\n"
-"}")
+        self.editing_btn.setStyleSheet("QPushButton {\n""    border : none;\n""    border-radius : 8px;\n""    background-color: rgb(86,142,166);\n""}\n""QPushButton:hover {\n""    background-color:  rgba(86,142,166, 150);\n""}")
         self.editing_btn.setObjectName("editing_btn")
         self.horizontalLayout_7.addWidget(self.option_05_bar)
         self.option_06_bar = QtWidgets.QFrame(self.opton_bar_mid)
@@ -342,14 +276,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Roboto")
         self.ressources_btn.setFont(font)
-        self.ressources_btn.setStyleSheet("QPushButton {\n"
-"    border : none;\n"
-"    border-radius : 8px;\n"
-"    background-color: rgb(86,142,166);\n"
-"}\n"
-"QPushButton:hover {\n"
-"    background-color:  rgba(86,142,166, 150);\n"
-"}")
+        self.ressources_btn.setStyleSheet("QPushButton {\n""    border : none;\n""    border-radius : 8px;\n""    background-color: rgb(86,142,166);\n""}\n""QPushButton:hover {\n""    background-color:  rgba(86,142,166, 150);\n""}")
         self.ressources_btn.setObjectName("ressources_btn")
         self.horizontalLayout_7.addWidget(self.option_06_bar)
         self.verticalLayout_5.addWidget(self.opton_bar_mid)
