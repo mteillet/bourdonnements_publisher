@@ -14,7 +14,6 @@ def readProj(path):
     file = open(path, "r")
     line = file.readlines()
 
-    cleanNames = []
     current = 0
     for i in line:
         if "\n" in line[current]:
