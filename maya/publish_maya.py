@@ -49,8 +49,25 @@ def save(asset, saveType, currentDir):
     print(pathToFile)
     removeStudentMsg(pathToFile)
     
-def publish(asset, saveType, currentDir, publishDir):
-    ####    NEED TO ADD FUNCTION TO CHECK THE NAMING IS RIGHT BEFORE MAKING THE ACTUAL PUBLISH      ####   
+def publish(asset, saveType, currentDir, publishDir):   
+    print(asset, saveType)
+    extension = ".ma"
+    copyfrom = (currentDir + asset + "_" + saveType + extension)
+    copyTo = (publishDir + asset + "_" + saveType + extension)
+    print(copyfrom)
+    print(copyTo)
+    if str(saveType) == "LOOKDEV":
+        copyfile(copyfrom, copyTo)
+    else:
+        print("Asset is not LOOKDEV type -- Naming convention should be AssetName_LOOKDEV.ma")
+    return(copyTo)
+        
+def publishBackup():
+    # Need to check if a publish version exists
+    # If yes, check if a publishBackup folder exists - if not, create the folder
+    # Backup the previous publish before making the save over the original publish
+    
+    
     
 def removeStudentMsg(pathToFile):
     # Opening the file and storing the lines in a list
